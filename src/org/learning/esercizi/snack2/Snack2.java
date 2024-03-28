@@ -17,7 +17,7 @@ public class Snack2 {
             int invitati = Integer.parseInt(sc.nextLine());
 
             Random rnd = new Random();
-            //invito 5 persone
+            //invito x persone
             String[] listaInvitati = new String[invitati];
             for (int i = 0; i < listaInvitati.length; i++) {
                 //prendi nome

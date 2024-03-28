@@ -6,6 +6,8 @@ public class Snack4 {
     //    Data in input una stringa verificare se è palindroma
     private static boolean isPalindrome(String str){
         int lastPos = str.length() -1;
+        // rendo la stringa case-insensitive
+        str = str.toLowerCase();
         for (int i = 0; i < str.length() / 2; i++) {
             if (str.charAt(lastPos - i) != str.charAt(i)) return false;
         }
