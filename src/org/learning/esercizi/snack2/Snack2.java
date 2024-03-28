@@ -29,7 +29,7 @@ public class Snack2 {
 
                 listaInvitati[i] = nomeCognome;
             }
-
+            sc.close();
             // stampo la lista di invitati
             System.out.println("invitati "+Arrays.toString(listaInvitati));
 
