@@ -17,7 +17,7 @@ public class Snack1 {
                 valid = true;
             }
         } while (!valid);
-
+        sc.close();
         System.out.println("il numero "+number+" è valido");
     }
 }
